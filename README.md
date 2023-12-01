@@ -8,3 +8,6 @@ The eniter architecture of U-Net model is used to create this model. The model w
 
 ### 3. Ablation Study
 Two blocks from the encoder and the decoder are removed and the sizes of the the remaining blocks are adjusted. Then another training process with the new architecture. The model is also saved and then loaded for evaluation.
+
+### 4. Models Evaluation
+In this notebook, I compare the two models and benchmark them on the test, train and validation datasets to measure their performance.
